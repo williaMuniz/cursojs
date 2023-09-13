@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <p>
+            Ano de Nascimento: <input type="number" name="nasc" placeholder="ano" id="ano" min="1910" max="2023">
+        </p>
+        <p>Sexo: 
+            <input type="radio" name="sex" id="masc" checked>
+            <label for="masc"> Masculino</label>
+            
+            <input type="radio" name="sex" id="fem">
+            <label for="fem"> Feminino</label>
+        </p>
+        <p>
+            <button onclick="calcular()">Verificar</button>
+        </p>
+        <p id="msg">
+            Preencha os dados acima para ver o resultado!
+        </p>
+    </section>
+    <footer>
+        <p>&copy; William Muniz</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

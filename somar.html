@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somador</title>
+    <style>
+        *{
+            text-decoration: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        div#res{
+            margin: 20px;
+            font-size: 50px;
+            text-align: center;
+        }
+
+        h1{
+            font-size: 70px;
+            text-align: center;
+        }
+
+        input#valor1,#valor2{
+            font-size: 50px;
+            width: 75px;
+            margin: 20px;
+        }
+
+        input#botao{
+            width: 100px;
+            height: 40px;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Somando Valores</h1>
+    <input type="number" id="valor1">
+    +
+    <input type="number" id="valor2">
+    <input type="button" value="Somar" id="botao" onclick="somar()">
+    <div id="res">Resultado</div>
+    <script>
+        function somar(){
+        var v1 = window.document.querySelector('input#valor1')
+        var v2 = window.document.querySelector('input#valor2')
+        var vv1 = Number(v1.value)
+        var vv2 = Number(v2.value)
+        var s = vv1 + vv2
+            res.innerHTML = `A soma de ${vv1} e ${vv2} é equivalente a <strong>${s}</strong>.`
+        }
+    </script>
+</body>
+</html>

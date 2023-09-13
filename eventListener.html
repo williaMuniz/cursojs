@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventListener</title>
+    <style>
+        div#quadrado{
+            height: 500px;
+            width: 500px;
+            line-height: 500px;
+            text-align: center;
+            background-color: aqua;
+            color: blueviolet;
+            font-size: 70px;
+        }
+    </style>
+</head>
+<body>
+    <div id="quadrado">
+        Minha Div
+    </div>
+    <script>
+        var d = window.document.getElementById('quadrado')
+        d.addEventListener('click', clicou)
+        d.addEventListener('mouseenter', entrou)
+        d.addEventListener('mouseout', foiembora)
+
+        function clicou(){
+            d.innerText = "clicou"
+        }
+        function entrou(){
+            d.innerText = "entrou"
+        }
+        function foiembora(){
+            d.innerText = "saiu"
+        }
+    </script>
+</body>
+</html>
