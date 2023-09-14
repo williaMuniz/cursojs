@@ -17,13 +17,16 @@ function calcular() {
         }
         if (i < f){ //contagem crescente
             for (let c=i; c<=f; c+=p) { //c+=p contador recebe ele mesmo mais o passo.
-                res.innerHTML += ` ${c} \u{1F449}`
+                res.innerHTML += ` ${c} \u{1F449}` //+= recebe ele mesmo e concatena mais um
             }
         } else { //contagem regressiva
             for (let c=i; c>=f; c-=p) { // C recebe i, contador recebe ele msm e tira o passo
-                res.innerHTML += ` ${c} \u{1F449}` 
+                res.innerHTML += ` ${c} \u{1F449}` //+= recebe ele mesmo e concatena mais um
             }
         }
         res.innerHTML += `\u{1F3c1}`
     }
+}
+function limpar() {
+    res.innerHTML = `Contando...`
 }
