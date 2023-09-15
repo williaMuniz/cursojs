@@ -1,0 +1,27 @@
+body {
+    background-color: blue;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+
+section {
+    width: 500px;
+    height: 250px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.541);
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+select {
+    margin: 10px;
+}
