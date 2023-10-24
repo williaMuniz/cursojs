@@ -1,0 +1,36 @@
+body{
+    background-color: blue;
+}
+
+header{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
+
+section{
+    background-color: white;
+    width: 600px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+select{
+    display: block;
+    width: 150px;
+}
+
+header{
+    color: white;
+}
+
+button{
+    font-size: 20px;
+    margin: 5px;
+}
