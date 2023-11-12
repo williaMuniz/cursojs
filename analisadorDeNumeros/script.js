@@ -57,3 +57,23 @@ function finalizar(){
         res.innerHTML += `<p>A media dos valores digitados é ${media}.</p>`
     }
 }
+/*
+let tot = valores.length: Isso declara uma variável chamada "tot" e a inicializa com o número de elementos no array "valores". Portanto, "tot" irá armazenar o tamanho do array.
+
+let maior = valores[0]: Declara uma variável "maior" e a inicializa com o primeiro elemento do array "valores". Essa variável será usada para rastrear o maior valor no array.
+
+let menor = valores[0]: Declara uma variável "menor" e a inicializa com o primeiro elemento do array "valores". Essa variável será usada para rastrear o menor valor no array.
+
+let soma = 0: Declara uma variável "soma" e a inicializa com zero. Essa variável será usada para calcular a soma de todos os valores no array "valores".
+
+let media = 0: Declara uma variável "media" e a inicializa com zero. Ela será usada para calcular a média dos valores no array.
+
+O próximo bloco de código é um loop "for...in" que percorre todos os elementos do array "valores".
+
+for(let pos in valores): Isso inicia um loop que passará por cada elemento do array.
+
+soma += valores[pos]: A cada iteração do loop, o valor atual do elemento é somado à variável "soma", acumulando a soma de todos os valores.
+
+if (valores[pos] > maior) maior = valores[pos]: Isso verifica se o valor atual do elemento é maior do que o valor atual armazenado em "maior" e, se for, atualiza "maior" com o novo valor.
+
+if (valores[pos] < menor) menor = valores[pos]: Isso verifica se o valor atual do elemento é menor do que o valor atual armazenado em "menor" e, se for, atualiza "menor" com o novo valor.*/
